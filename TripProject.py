@@ -53,7 +53,7 @@ while user_response != "y" and user_response != "Y" and user_response != "yes" a
     random_entertainment = random.choice(my_entertainment)
     user_response = input(f"Is {random_entertainment} your choice of entertainment? Y/N ")
 
-print(f"Okay, {random_destination} is your place of choice. {random_restuarant} is your place for foods. You want to get there by {random_transportation} and you want to {random_entertainment}! :)")
+print(f"Okay, {random_destination} is your place of choice. {random_restuarant} is your resturant of choice. You want to get there by {random_transportation} and you want to {random_entertainment}! :)")
 
 
 # import random
